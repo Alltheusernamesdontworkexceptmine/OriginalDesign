@@ -5,7 +5,7 @@ int redAmount=50;
 int greenAmount=255;
 void setup()
 {
-  size(1000,1000);
+  size(1000,900);
   background(0);
   frameRate(15);
 }
@@ -18,14 +18,13 @@ void draw()
 void textElements()
 {
   fill(redAmount-90,random(255),random(255),greenAmount-30);
-  text("APCS",x,y);
+  text("APCSA",x,y);
   textSize(z);
   x=x+10;
   y=y+10;
-  z=z+1.5;
-  if(y>=725)
+  z=z+2;
+  if(y>625)
   {
-    text("APCS",x,y);
     textSize(z);
     x=0;
     y=0;
