@@ -5,7 +5,7 @@ int redAmount=50;
 int greenAmount=255;
 void setup()
 {
-  size(3000,3000);
+  size(1000,1000);
   background(0);
   frameRate(15);
 }
@@ -23,7 +23,7 @@ void textElements()
   x=x+10;
   y=y+10;
   z=z+1.5;
-  if(y>=850)
+  if(y>=725)
   {
     text("APCS",x,y);
     textSize(z);
